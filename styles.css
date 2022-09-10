@@ -4,4 +4,17 @@
 
 .gallery-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.gallery-item {
+  width: 15rem;
+  height: 20rem;
+}
+
+.gallery-item:hover {
+  border: 10px solid black;
 }
